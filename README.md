@@ -3,7 +3,9 @@
 A small kit to find out whether [Laya](https://github.com/convaiinnovations/laya), a zero-shot
 text classifier, fits **your** data before you build on it.
 
-I tried Laya on my own material and it didn't work for my use case. This kit contains what I
+I tried Laya on my own material and it didn't work for my use case (full write-up:
+[English](https://ksmit.com.br/en/blog/mais-ia-pra-que) ·
+[Português](https://ksmit.com.br/blog/mais-ia-pra-que)). This kit contains what I
 wish I'd had at the start, so you can find out in an afternoon instead of a week. To be clear:
 it does not show that Laya is bad. The published benchmark reproduces exactly (see step 1).
 What I found is that my tasks are outside the regime that benchmark covers.
