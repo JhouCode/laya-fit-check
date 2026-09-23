@@ -1,0 +1,28 @@
+{
+ "n": 5489,
+ "labels": {
+  "introduction": 2327,
+  "conclusion": 247,
+  "discussion": 74,
+  "methods": 1721,
+  "results": 1120
+ },
+ "grouped_cv": true,
+ "laya_seconds": 1458.8,
+ "laya_dropped": 0,
+ "laya_mean_confidence": 0.4226,
+ "results": {
+  "natural": {
+   "majority": 0.4239,
+   "rule": 0.3554,
+   "tfidf (learns from your labels)": 0.705,
+   "laya english (zero-shot)": 0.2563
+  },
+  "balanced (74 per label)": {
+   "majority": 0.2,
+   "rule": 0.1811,
+   "tfidf (learns from your labels)": 0.4568,
+   "laya english (zero-shot)": 0.1892
+  }
+ }
+}

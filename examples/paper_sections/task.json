@@ -1,0 +1,11 @@
+{
+ "field": "passage",
+ "question": "Which section of a scientific paper was `passage` taken from?",
+ "labels": {
+  "introduction": "motivation, context, prior work, the problem and the goal of the paper",
+  "methods": "how the work was done: theoretical model, formalism, experimental setup, procedure, samples",
+  "results": "what was obtained: measurements, values, curves, numerical comparison with the prediction",
+  "discussion": "interpretation of what was obtained, implications, limitations, comparison with the literature",
+  "conclusion": "closing: what the work establishes, summary of findings and outlook"
+ }
+}

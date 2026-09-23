@@ -1,0 +1,6 @@
+# torch: install the build for your hardware first (CPU, CUDA or ROCm), see pytorch.org
+torch>=2.0
+laya
+datasets          # only for reproduce_massive.py
+scikit-learn      # baselines in compare.py
+numpy

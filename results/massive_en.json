@@ -1,0 +1,16 @@
+{
+ "n": 300,
+ "accuracy": 0.7833,
+ "macro_f1": 0.786,
+ "ece": 0.1811,
+ "mean_confidence": 0.9602,
+ "acc_at_50_coverage": 0.94,
+ "device": "cuda",
+ "seconds": 32.08,
+ "dropped": 0,
+ "target_accuracy": 0.7833333333333333,
+ "tolerance": 0.02,
+ "delta": -0.0,
+ "verdict": "PASS",
+ "timestamp": "2026-09-23 02:35:47"
+}

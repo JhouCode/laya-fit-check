@@ -1,0 +1,26 @@
+{
+ "default": "introduction",
+ "rules": [
+  [
+   "conclusion",
+   "\\b(in conclusion|to conclude|we have (shown|presented|demonstrated)|in summary|to summarize|concluding)\\b"
+  ],
+  [
+   "methods",
+   "\\b(we (use|employ|adopt|assume)|is given by|can be written|the model|our setup|the sample|were prepared|procedure|we consider|substituting|derived? (from|in)|eq\\.|equation \\(\\))\\b"
+  ],
+  [
+   "results",
+   "\\b(figure \\d|fig\\. \\d|table \\d|we (obtain|find|measured|observe)|is shown in|are plotted|the measured|our data)\\b"
+  ],
+  [
+   "discussion",
+   "\\b(this (suggests|implies|indicates)|consistent with|in agreement with|discrepancy|we attribute|one possible explanation)\\b"
+  ],
+  [
+   "introduction",
+   "\\b(in this (paper|work|article)|recent(ly)?|has (been|attracted)|it is well known|over the (past|last)|motivated by)\\b"
+  ]
+ ],
+ "_note": "Written in one pass, not tuned against the labels. Rarest cues first; the majority label is the fallback."
+}
